@@ -1,0 +1,27 @@
+# --- Lixo de Compilação e Binários ---
+bin/
+obj/
+Celeste64_R36S/
+
+# --- Instaladores e Temporários (O que você baixou) ---
+*.deb
+*.sh
+zlib_temp/
+Port\ Master/
+Celeste64_PortMaster/
+packages-microsoft-prod.deb
+dotnet-install.sh
+
+# --- Arquivos do Usuário (Saves e Logs) ---
+savedata/
+save.json
+controls.json
+settings.json
+Log.txt
+ErrorLog.txt
+imgui.ini
+
+# --- Editor de Código ---
+.vs/
+.vscode/
+*.user
